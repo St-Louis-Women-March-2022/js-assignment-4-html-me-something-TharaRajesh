@@ -4,6 +4,11 @@
       <meta charset="utf-8">
       <title>My Favorite Places</title>
    </head>
+   <script>
+      function ToShowImage(tagId) {
+        document.getElementById(tagId).style.display ='block';
+      }
+   </script>
    <body>
       <h1>The best places I've ever visited</h1>
       <ul>
@@ -20,25 +25,15 @@
    <article>
       <a name="TamilNadu-India"></a>
       <h2>TamilNadu-India:&nbsp;</h2>
-      <p>Tamil Nadu is a state in southern India. Its capital and largest city is Chennai. The state is the home of the Tamil people, whose Tamil language—one of the longest surviving classical languages in the world. This is my birth place and my mother tongue is Tamil. Tamil Nadu is famous for its temples, festivals, and celebration of the arts. The Hindu temples and monuments at Mamallapuram have become famous tourist attractions.
-      </p>
-      <img src="Images\TamilNadu.jpg" alt="TamilNadu-India" style="width:804px;height:558px;">
-      <!-- <p>Click the button below to display the image of TamilNadu-India.</p>
+      <p>Tamil Nadu is a state in southern India. Its capital and largest city is Chennai. The state is the home of the Tamil people, whose Tamil language—one of the longest surviving classical languages in the world. This is my birth place and my mother tongue is Tamil. Tamil Nadu is famous for its temples, festivals, and celebration of the arts. The Hindu temples and monuments at Mamallapuram have become famous tourist attractions.</p>
+      <p>Click the button below to display the image of TamilNadu-India.</p>
 
-      <button onclick="tamilNadu()">Image of TamilNadu</button>
-     <template>
-     <h4>TamilNadu-India</h4>
-     <img src="Images\TamilNadu.jpg" alt="TamilNadu-India" style="width:804px;height:558px;"> 
-     </template>
-   
-      <script>
-       function tamilNadu() {
-        const temp = document.getElementsByTagName("template")[0];
-        const clon = temp.content.cloneNode(true);
-        document.body.appendChild(clon);
-         }
-        </script> -->
-      </article>
+      <button onclick="ToShowImage('TN')">Image of TamilNadu</button>
+      <div id="TN" style="display: none">
+         <br>
+         <img id ="TNIMG" src="Images\TamilNadu.jpg" alt="TamilNadu-India" style="width:804px;height:558px;"> 
+      </div>
+   </article>
 
    <article>
       <a name="Mumbai-India"></a>
