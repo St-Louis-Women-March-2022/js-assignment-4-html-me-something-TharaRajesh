@@ -3,7 +3,7 @@ body {
     display: block;
 }
 
-#main-Heading{
+#mainHeading{
  color: red;
 }
 
@@ -11,7 +11,7 @@ body {
 color : green;
 }
 
-testP{
+#testP{
     text-align: center;
 }
 nav ul {
