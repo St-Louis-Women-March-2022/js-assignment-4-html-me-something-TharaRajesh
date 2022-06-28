@@ -1,1 +1,34 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+}
+
+#main-Heading{
+ color: red;
+}
+
+.funParagraph{
+color : green;
+}
+
+testP{
+    text-align: center;
+}
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 1.2em;
+}
+
+header h1 {
+	text-align: center;
+}
+footer {
+	text-align: center;
+	padding: 0em;
+}
